@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DS-SF.iml" filepath="$PROJECT_DIR$/.idea/DS-SF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SF_DS_ML/.idea/SF_DS_ML.iml" filepath="$PROJECT_DIR$/../SF_DS_ML/.idea/SF_DS_ML.iml" />
     </modules>
   </component>
 </project>
