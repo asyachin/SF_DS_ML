@@ -1,7 +1,7 @@
 
 # Editors
 .vscode/
-.idea/
+../.idea/
 
 # Vagrant
 .vagrant/
@@ -23,7 +23,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-.temp/
+../.temp/
 build/
 develop-eggs/
 dist/
@@ -31,7 +31,7 @@ downloads/
 eggs/
 .eggs/
 .ssh/
-lib/
+venv/lib/
 lib64/
 parts/
 sdist/
