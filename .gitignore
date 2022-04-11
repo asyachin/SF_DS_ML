@@ -30,6 +30,11 @@ eggs/
 .eggs/
 .ssh/
 .temp
+.gitconfig
+.bash_history
+.gitignore
+.lellhst
+.profile
 lib/
 lib64/
 parts/
