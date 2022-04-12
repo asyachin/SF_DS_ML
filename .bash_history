@@ -28,3 +28,9 @@ git cofig --global user.email "syachin@sea-sun-tech.com"
 git config --global user.email "syachin@sea-sun-tech.com"
 git config --global user.name "AS_Trappenkamp"
 git commit -m "12.04.2022 rebase"
+ssh -vT git@github.com
+eval $(ssh-agent -s)
+pwd
+ssh-add ~/.ssh/github_rsa
+ssh -vT git@github.com
+git fetch --all
