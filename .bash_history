@@ -34,3 +34,19 @@ pwd
 ssh-add ~/.ssh/github_rsa
 ssh -vT git@github.com
 git fetch --all
+git push origin trappenkamp
+ssh -vT git@github.com
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/github_rsa
+ssh -vT git@github.com
+git push origin trappenkamp
+git push origin trappenkamp
+git push origin  master
+git checkout master
+git status
+git add -A
+git commit "12.04.2022 Pull request"
+git commit -m "12.04.2022 Pull request"
+git checkout master
+git pull origin master
+git pull origin master
