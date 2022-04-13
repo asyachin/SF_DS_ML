@@ -50,3 +50,18 @@ git commit -m "12.04.2022 Pull request"
 git checkout master
 git pull origin master
 git pull origin master
+git status
+git add -A
+git commit -m  "13.04.2022 Updated"
+git push origin master
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/github_rsa
+git commit -m  "13.04.2022 Updated"
+git push origin master
+git status
+git add -A
+git commit -m  "13.04.2022 Updated"
+git push origin master
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/github_rsa
+git push origin master
